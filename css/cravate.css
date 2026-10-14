@@ -23,6 +23,7 @@ table {
   border-spacing: 0;
   border: 1px solid #ddd;
   border-radius: 8px;
+  max-width: max-content;
 }
 
 td {
@@ -32,12 +33,18 @@ td {
   vertical-align: middle;
 }
 
+table tr td:nth-child(4) {
+  /* don't wrap the score column */
+  width: 1%;
+  white-space: nowrap;
+}
+
 td.win {
-  font-weight: bold
+  font-weight: bold;
 }
 
 td.ov {
-  font-style: italic
+  font-style: italic;
 }
 
 .tie {
