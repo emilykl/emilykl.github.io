@@ -19,6 +19,7 @@ h2 {
 
 table {
   margin: 0 auto;
+  overflow: hidden;
   border-collapse: separate;
   border-spacing: 0;
   border: 1px solid #ddd;
@@ -33,17 +34,21 @@ td {
   vertical-align: middle;
 }
 
-table tr td:nth-child(4) {
+tr td:nth-child(4) {
   /* don't wrap the score column */
   width: 1%;
   white-space: nowrap;
 }
 
-td.win {
+tr.win {
+  background-color: #f3f3f3;
+}
+
+tr.win td:nth-child(4) {
   font-weight: bold;
 }
 
-td.ov {
+tr.ov td:nth-child(4) {
   font-style: italic;
 }
 
