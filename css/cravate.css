@@ -71,6 +71,13 @@ tr.ov td:nth-child(4) {
   fill: #7185c9;
 }
 
+.tie.frost {
+  fill: #EAF1FA;
+  stroke: #79A5E2;
+  stroke-width: 4px;
+
+}
+
 .tie.darkblue {
   fill: #14236b;
 }
@@ -111,14 +118,14 @@ tr.ov td:nth-child(4) {
 }
 
 svg a {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 svg.missing a,
 svg.hidden a,
 svg.nolink a {
-    pointer-events: none;
-    cursor: default;
+  pointer-events: none;
+  cursor: default;
 }
 
 td:last-child {
