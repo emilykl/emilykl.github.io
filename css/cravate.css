@@ -60,7 +60,35 @@ tr.ov td:nth-child(4) {
 }
 
 .tie.blue {
-  fill: #1f3cad;
+  fill: #2744b8;
+}
+
+.tie.slate {
+  fill: #5063a1;
+}
+
+.tie.lightblue {
+  fill: #7185c9;
+}
+
+.tie.darkblue {
+  fill: #14236b;
+}
+
+.tie.black {
+  fill: #040d17;
+}
+
+.tie.purplepaisley {
+  fill: #3f1d5c;
+}
+
+.tie.silver {
+  fill: #8f8f8f;
+}
+
+.tie.mauve {
+  fill: #846094;
 }
 
 .tie.red {
