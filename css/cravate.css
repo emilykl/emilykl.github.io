@@ -82,6 +82,10 @@ tr.ov td:nth-child(4) {
   fill: #14236b;
 }
 
+.tie.midnight {
+  fill: #051f45;
+}
+
 .tie.black {
   fill: #040d17;
 }
@@ -104,6 +108,20 @@ tr.ov td:nth-child(4) {
 
 .tie.maroon {
   fill: #660000;
+}
+
+.tie.crazy {
+  fill: none;
+  background-image: url(../assets/crazytie.png);
+  background-size: cover;
+  background-position: center;
+  -webkit-mask: url(../assets/cravate-r.svg) center / contain no-repeat;
+  mask: url(../assets/cravate-r.svg) center / contain no-repeat;
+}
+
+.tie.crazy use {
+  /* make crazy-tie clickable even though fill is set to none */
+  pointer-events: all;
 }
 
 .tie.missing {
