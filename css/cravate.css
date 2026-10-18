@@ -49,7 +49,7 @@ tr.win td:nth-child(4) {
   font-weight: bold;
 }
 
-tr.ov td:nth-child(4) {
+tr.ot td:nth-child(4) {
   font-style: italic;
 }
 
@@ -108,6 +108,10 @@ tr.ov td:nth-child(4) {
 
 .tie.maroon {
   fill: #660000;
+}
+
+.tie.brown {
+  fill: #6b4333;
 }
 
 .tie.crazy {
