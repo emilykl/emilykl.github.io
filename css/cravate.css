@@ -5,6 +5,11 @@ body {
   text-align: center;
 }
 
+.content {
+  display: table;
+  margin: 0 auto;
+}
+
 h1 {
   font-size: 1.75rem;
   margin-bottom: 0;
@@ -17,8 +22,19 @@ h2 {
   margin-top: 0.25rem;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer a {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #666;
+  margin-top: 0.25rem;
+}
+
 table {
-  margin: 0 auto;
   margin-bottom: 2rem;
   overflow: hidden;
   border-collapse: separate;
