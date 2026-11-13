@@ -87,9 +87,14 @@ tr.ot td:nth-child(4) {
   fill: #7185c9;
 }
 
+.tie.lightlightblue {
+  fill: #b7d1f7;
+  stroke: #7ea1d6;
+}
+
 .tie.frost {
-  fill: #EAF1FA;
-  stroke: #79A5E2;
+  fill: #eaf1fa;
+  stroke: #79a5e2;
   stroke-width: 4px;
 
 }
