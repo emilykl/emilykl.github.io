@@ -71,11 +71,11 @@ tr.ot td:nth-child(4) {
   aspect-ratio: 190 / 364;
 }
 
-.tie.blue {
+.tie.luckyblue {
   fill: #122982;
 }
 
-.tie.unluckyblue {
+.tie.blue {
   fill: #2744b8
 }
 
